@@ -40,6 +40,14 @@ Systolic and diastolic blood pressure were the most influential features in pred
 pip install pandas scikit-learn streamlit matplotlib seaborn
 ```
 
+The project is organized into separate scripts for each stage of the pipeline (preprocessing, EDA, model training, and the real-time dashboard). Run the dashboard script with:
+
+```bash
+streamlit run <dashboard_script_name>.py
+```
+
+See the repository file list above for exact script names.
+
 Then run the notebook/scripts in this repo in order: data preprocessing → EDA → model training → Streamlit dashboard. *(See individual files for exact entry points — update this section once you confirm your file names.)*
 
 ## Author
